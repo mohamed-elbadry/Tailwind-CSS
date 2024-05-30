@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../dist/css/tailwind.css">
+    <title>E-commerce Website - Products</title>
+</head>
+
+<body class="font-roboto">
+   <!----header-->
+   <div class="max-w-6xl mx-auto flex items-center justify-between px-4 py-6">
+    <p class="capitalize text-sm font-medium">my online store</p>
+    <div class="flex items-center gap-4">
+        <a href="#" class="flex items-center gap-1">
+            <img src="../../dist/img/mdi--heart.svg" alt="">
+            <span class="text-sm font-medium">3</span>
+        </a>
+        <a href="./cart.html" class="flex items-center gap-1">
+            <img src="../../dist/img/cart-line.svg" alt="">
+            <span class="text-sm font-medium">2</span>
+        </a>
+    </div>
+    </div>
+     <!----header---->
+    <!-- breadcrumb -->
+    <div class="bg-black">
+        <ul class="flex items-center gap-3 py-2.5 px-4 max-w-6xl mx-auto">
+            <li><a href="#" class="text-sm font-medium capitalize text-white">home</a></li>
+            <li><span class="text-sm font-medium  text-white">/</span></li>
+            <li><a href="./products.html" class="text-sm font-medium capitalize text-white">shoes</a></li>
+            <li><span class="text-sm font-medium  text-white">/</span></li>
+            <li><a href="./product-view.html" class="text-sm font-medium capitalize text-white">men's causal shoe</a>
+            </li>
+        </ul>
+    </div>
+    <!-- content wraper -->
+    <div class="max-w-6xl mx-auto px-4 mt-9">
+        <!-- grid gallry & info  -->
+        <div class="md:grid md:grid-cols-2 md:gap-8">
+            <!-- product gallery  -->
+            <div class="sm:flex sm:gap-2 sm:justify-between md:items-start">
+                <!-- thumbnails -->
+                <div class="hidden sm:flex sm:flex-col sm:gap-2.5 sm:shrink-0">
+                    <img src="../../dist/img/shoes2.jpg" alt="" class="rounded-sm w-20 border-2 border-black
+        hover:cursor-pointer hover:border-2 hover:border-black">
+                    <img src="../../dist/img/shoes1.jpg" alt="" class="rounded-sm w-20 
+        hover:cursor-pointer hover:border-2 hover:border-black">
+                     <img src="../../dist/img/shoes2.jpg" alt="" class="rounded-sm w-20 
+        hover:cursor-pointer hover:border-2 hover:border-black">
+                     <img src="../../dist/img/shoes1.jpg" alt="" alt="" class="rounded-sm w-20 
+        hover:cursor-pointer hover:border-2 hover:border-black">
+                </div>
+                <img src="../../dist/img/shoes1.jpg" alt=""
+                    class="rounded-sm sm:overflow-x-hidden">
+                <div class="flex justify-center gap-1 mt-4 sm:hidden">
+                    <div class="w-2.5 h-2.5 rounded-full bg-neutral-300"></div>
+                    <div class="w-2.5 h-2.5 rounded-full bg-neutral-300"></div>
+                    <div class="w-2.5 h-2.5 rounded-full bg-neutral-300"></div>
+                    <div class="w-2.5 h-2.5 rounded-full bg-black"></div>
+                </div>
+            </div>
+            <!-- info  -->
+            <div class="mt-4 md:mt-0">
+                <div class="flex items-center justify-between">
+                    <p class="capitalize font-medium">men's causal shoe</p>
+                    <img src="../../dist/img/ic--outline-share.svg" alt="">
+                </div>
+                <p class="font-medium text-3xl mt-4">$50</p>
+                <p class="mt-4">Color: Black</p>
+                <div class="mt-2 flex gap-4">
+                    <a href="#" class="w-5 h-5 rounded-full bg-white border border-neutral-300"></a>
+                    <a href="#" class="w-5 h-5 rounded-full bg-fuchsia-300 border border-neutral-300"></a>
+                    <a href="#"
+                        class="w-5 h-5 rounded-full bg-black border-2 border-white outline outline-2  outline-black"></a>
+                    <a href="#" class="w-5 h-5 rounded-full bg-red-500 border border-neutral-300"></a>
+                </div>
+                <p class="mt-4">Size</p>
+                <div class="mt-2 border border-black rounded-sm px-3.5 py-2 flex items-center justify-between">
+                    <p>Select size</p>
+                    <img src="../../dist/img/icon-park--down.svg" alt="">
+                </div>
+                <div class="mt-4">
+                    <div class="flex items-center gap-1">
+                        <img src="../../dist/img/carbon--location.svg" alt="">
+                        <p>Ship to <span class="underline">jeddah</span></p>
+                    </div>
+                    <p class="mt-2">Delivery by: <span class="text-green-700">10 December 2024</span></p>
+                </div>
+                <div class="mt-8 flex items-center gap-4">
+                    <a href="./cart.html" class="bg-black text-center text-white uppercase font-bold py-4 rounded-sm grow transition duration-300 ease-linear hover:bg-green-600">
+                        add to bag
+                    </a>
+                    <button class="transition duration-300 ease-linear hover:text-red-500">
+                        <img src="../../dist/img/mdi--heart-outline.svg" alt="">
+                    </button>
+                </div>
+                <div class="mt-12 flex justify-center gap-4 lg:gap-14">
+                    <div class="flex flex-col items-center gap-1">
+                        <div class="border border-black rounded-full p-2.5">
+                            <img src="../../dist/img/mdi--heart-outline.svg" alt="">
+                        </div>
+                        <p>100% Genuine</p>
+                    </div>
+                    <div class="flex flex-col items-center gap-1">
+                        <div class="border border-black rounded-full p-2.5">
+                           <img src="../../dist/img/shipping-outline.svg" alt="">
+                        </div>
+                        <p>Free shipping</p>
+                    </div>
+                    <div class="flex flex-col items-center gap-1">
+                        <div class="border border-black rounded-full p-2.5">
+                           <img src="../../dist/img/icon-return.svg" alt="">
+                        </div>
+                        <p>14 days return </p>
+                    </div>
+                </div>
+                <div class="mt-12">
+                    <h1 class="font-medium border-b border-neutral-300 pb-2">
+                        Description
+                    </h1>
+                    <p class="mt-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates tempore ratione laboriosam
+                        minima vero ipsa placeat, ea, necessitatibus praesentium aliquid saepe maiores voluptatibus, est
+                        neque omnis autem consectetur. Laudantium, repellendus!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- similar products  -->
+        <div class="my-14">
+            <div class="flex items-center justify-between">
+                <p class="font-bold text-xl">you may also like</p>
+                <a href="" class="flex items-center gap-1.5 transition duration-300 ease-linear hover:text-green-500 hover:translate-x-2">
+                    <span class="capitalize text-sm font-medium">view all</span>
+                    <img src="../../dist/img/lucide--move-right.svg" alt="">
+                </a>
+            </div>
+            <div class="mt-6 grid grid-cols-2 gap-6 md:grid-cols-4">
+                <div>
+                    <div>
+                        <a href="">
+                            <img src="../../dist/img/shoes2.jpg" alt="" class="rounded-sm transition duration-300 ease-linear hover:scale-105">
+                        </a>
+                    </div>
+                    <div class="mt-7">
+                        <a href="" class="font-medium capitalize">men's casuel shoe </a>
+                        <p class="mt-2.5 font-medium">$50</p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <a href="">
+                            <img src="../../dist/img/sneake.jpg" alt="" class="rounded-sm transition duration-300 ease-linear hover:scale-105">
+                        </a>
+                    </div>
+                    <div class="mt-7">
+                        <a href="" class="font-medium capitalize">men's casuel shoe </a>
+                        <p class="mt-2.5 font-medium">$50</p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <a href="">
+                            <img src="../../dist/img/shoes2.jpg" alt="" class="rounded-sm transition duration-300 ease-linear hover:scale-105">
+                        </a>
+                    </div>
+                    <div class="mt-7">
+                        <a href="" class="font-medium capitalize">men's casuel shoe </a>
+                        <p class="mt-2.5 font-medium">$50</p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <a href="">
+                            <img src="../../dist/img/sneake.jpg" alt="" class="rounded-sm transition duration-300 ease-linear hover:scale-105">
+                        </a>
+                    </div>
+                    <div class="mt-7">
+                        <a href="" class="font-medium capitalize">men's casuel shoe </a>
+                        <p class="mt-2.5 font-medium">$50</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- border wraper  -->
+    <!---footer-->
+    <div class="max-w-6xl mx-auto px-4 py-5 flex items-center gap-1">
+        <img src="../../dist/img/icon-park-solid--copyright.svg" alt="">
+        <p class="capitalize text-sm">2023 My Online Store</p>
+    </div>
+    <!---footer-->
+    
+</body>
+
+</html>

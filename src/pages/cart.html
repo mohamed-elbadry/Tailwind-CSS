@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../dist/css/tailwind.css">
+    <title>E-commerce Website - Cart</title>
+</head>
+
+<body class="font-roboto">
+    <!----header-->
+    <div class="max-w-6xl mx-auto flex items-center justify-between px-4 py-6">
+        <p class="capitalize text-sm font-medium">my online store</p>
+        <div class="flex items-center gap-4">
+            <a href="#" class="flex items-center gap-1">
+                <img src="../../dist/img/mdi--heart.svg" alt="">
+                <span class="text-sm font-medium">3</span>
+            </a>
+            <a href="./cart.html" class="flex items-center gap-1">
+                <img src="../../dist/img/cart-line.svg" alt="">
+                <span class="text-sm font-medium">2</span>
+            </a>
+        </div>
+    </div>
+         <!----header---->
+    <div class="border-t border-neutral-300">
+        <div class="max-w-6xl mx-auto px-4 pt-9">
+            <div class="flex items-center justify-between">
+                <h1 class="capitalize text-xl font-medium">shopping bag</h1>
+                <a href="./products.html" class="underline capitalize">continue shopping</a>
+            </div>
+            <div class="mt-8 lg:grid lg:grid-cols-2 lg:gap-8">
+                <ul>
+                    <li class="sm:flex sm:items-start sm:gap-4">
+                        <img src="../../dist/img/shoes1.jpg" alt=""
+                            class="rounded-sm w-32">
+                        <div class="mt-4 sm:mt-0 sm:grow">
+                            <p class="capitalize font-medium">unisex runing shoe</p>
+                            <p class="font-medium mt-3">$50</p>
+                            <p class="mt-6">Color: Black <span class="mx-2">|</span> Size: 37</p>
+                            <p class=" mt-3">Dlivery by: <span class="text-green-700">10 Decmber 2024</span></p>
+                            <div class="flex gap-4 justify-between items-end">
+                                <div class="flex items-center gap-3">
+                                    <button
+                                        class="flex items-center gap-1.5 transition duration-300 ease-linear hover:text-green-500">
+                                        <img src="../../dist/img/mdi--heart-outline.svg" alt="">
+                                        </svg>
+                                        <span class="underline capitalize">move to wishlist</span>
+                                    </button>
+                                    <button class="flex items-center gap-1.5 transition duration-300 ease-linear hover:text-red-500">
+                                        <img src="../../dist/img/streamline--recycle-bin-2.svg" alt="">
+                                        <span class="underline capitalize">move to wishlist</span>
+                                    </button>
+                                </div>
+                                <div>
+                                    <p>Quantity</p>
+                                    <div class="flex border border-black px-3 py-2.5 flex items-center justify-between">
+                                        <span>1</span>
+                                       <img src="../../dist/img/icon-park--down.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                   
+                    <li class="sm:flex sm:items-start sm:gap-4">
+                        <img src="../../dist/img/shoes1.jpg" alt=""
+                            class="rounded-sm w-32">
+                        <div class="mt-4 sm:mt-0 sm:grow">
+                            <p class="capitalize font-medium">unisex runing shoe</p>
+                            <p class="font-medium mt-3">$50</p>
+                            <p class="mt-6">Color: Black <span class="mx-2">|</span> Size: 37</p>
+                            <p class=" mt-3">Dlivery by: <span class="text-green-700">10 Decmber 2024</span></p>
+                            <div class="flex gap-4 justify-between items-end">
+                                <div class="flex items-center gap-3">
+                                    <button
+                                        class="flex items-center gap-1.5 transition duration-300 ease-linear hover:text-green-500">
+                                        <img src="../../dist/img/mdi--heart-outline.svg" alt="">
+                                        </svg>
+                                        <span class="underline capitalize">move to wishlist</span>
+                                    </button>
+                                    <button class="flex items-center gap-1.5 transition duration-300 ease-linear hover:text-red-500">
+                                        <img src="../../dist/img/streamline--recycle-bin-2.svg" alt="">
+                                        <span class="underline capitalize">move to wishlist</span>
+                                    </button>
+                                </div>
+                                <div>
+                                    <p>Quantity</p>
+                                    <div class="flex border border-black px-3 py-2.5 flex items-center justify-between">
+                                        <span>1</span>
+                                       <img src="../../dist/img/icon-park--down.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                  
+                    
+
+                </ul>
+                <div class="mt-9 lg:mt-0">
+                    <h2 class="text-xl font-medium capitalize">order summary</h2>
+                    <div class="mt-6">
+                        <div class="flex items-center gap-1.5">
+                            
+                            <p class="capitalize font-medium">apply coupon</p>
+                        </div>
+                    </div>
+                    <div class="mt-5 flex items-center gap-4">
+                        <input type="text" class="rounded-sm border border-black py-2 px-3.5 outline-black grow">
+                        <button class="font-medium underline">Apply</button>
+                    </div>
+                    <div class="mt-6">
+                        <div class="flex items-center justify-between">
+                            <p class="font-medium">Subtotal</p>
+                            <p class="font-medium">$50</p>
+                        </div>
+                        <div class="flex items-center justify-between mt-3">
+                            <p class="font-medium">Shipping</p>
+                            <p class="font-medium">Free</p>
+                        </div>
+                        <div class="flex items-center justify-between mt-6 pt-6 border-t border-neutral-300">
+                            <p class="font-medium">Total</p>
+                            <p class="font-medium">$120</p>
+                        </div>
+                    </div>
+                    <button class="w-full bg-black text-white font-bold py-4 uppercase mt-8 rounded-sm transition duration-300 ease-linear hover:bg-green-600">
+                        check out
+                    </button>
+                    <div class="mt-8 flex items-center gap-2.5">
+                        <div class="border border-neutral-300 w-12 h-7 grid place-items-center">
+                           <img src="../../dist/img/visa-payment.jpg" alt="">
+                        </div>
+                        <div class="border border-neutral-300 w-12 h-7 grid place-items-center">
+                            <img src="../../dist/img/Mastercard-Logo.png" alt="">
+                        </div>
+                        <div class="border border-neutral-300 w-12 h-7 grid place-items-center">
+                           <img src="../../dist/img/pay.png" alt="">
+                        </div>
+                        <div class="border border-neutral-300 w-12 h-7 grid place-items-center">
+                            <img src="../../dist/img/paypal.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mt-12 flex justify-center gap-4 lg:gap-14">
+            <div class="flex flex-col items-center gap-1">
+                <div class="border border-black rounded-full p-2.5">
+                    <img src="../../dist/img/mdi--heart-outline.svg" alt="">
+                </div>
+                <p>100% Genuine</p>
+            </div>
+            <div class="flex flex-col items-center gap-1">
+                <div class="border border-black rounded-full p-2.5">
+                   <img src="../../dist/img/shipping-outline.svg" alt="">
+                </div>
+                <p>Free shipping</p>
+            </div>
+            <div class="flex flex-col items-center gap-1">
+                <div class="border border-black rounded-full p-2.5">
+                   <img src="../../dist/img/icon-return.svg" alt="">
+                </div>
+                <p>14 days return </p>
+            </div>
+        </div>
+    </div>
+    <!---footer-->
+    <div class="max-w-6xl mx-auto px-4 py-5 flex items-center gap-1">
+        <img src="../../dist/img/icon-park-solid--copyright.svg" alt="">
+        <p class="capitalize text-sm">2023 My Online Store</p>
+    </div>
+    <!---footer-->
+</body>
+
+</html>
